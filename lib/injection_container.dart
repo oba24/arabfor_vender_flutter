@@ -1,0 +1,41 @@
+import 'package:kiwi/kiwi.dart';
+import 'package:saudimerchantsiller/gen_bloc/categories/bloc.dart';
+import 'package:saudimerchantsiller/gen_bloc/colors/bloc.dart';
+import 'package:saudimerchantsiller/view/auth/forget_password/bloc/bloc.dart';
+import 'package:saudimerchantsiller/view/auth/reset_password/bloc/bloc.dart';
+import 'package:saudimerchantsiller/view/notification/bloc/bloc.dart';
+import 'package:saudimerchantsiller/view/setting/bloc/bloc.dart';
+import 'package:saudimerchantsiller/view/wallet/bloc/bloc.dart';
+import 'gen_bloc/cities/bloc.dart';
+import 'gen_bloc/delete/bloc.dart';
+import 'gen_bloc/order/bloc.dart';
+import 'gen_bloc/profile/bloc.dart';
+import 'gen_bloc/sizes/bloc.dart';
+import 'view/add_product/bloc/bloc.dart';
+import 'view/auth/active_code/bloc/bloc.dart';
+import 'view/auth/login/bloc/bloc.dart';
+import 'view/auth/register/bloc/bloc.dart';
+import 'view/product/bloc/bloc.dart';
+import 'view/profile/bloc/bloc.dart';
+
+void initKiwi() {
+  KiwiContainer container = KiwiContainer();
+  container.registerFactory((c) => CitiesBloc());
+  container.registerFactory((c) => RegisterBloc());
+  container.registerFactory((c) => ActiveCodeBloc());
+  container.registerFactory((c) => LoginBloc());
+  container.registerFactory((c) => ProfileBloc());
+  container.registerFactory((c) => CategoryBloc());
+  container.registerFactory((c) => ColorsBloc());
+  container.registerFactory((c) => SizesBloc());
+  container.registerFactory((c) => AddProductBloc());
+  container.registerFactory((c) => ProductBloc());
+  container.registerFactory((c) => DeleteBloc());
+  container.registerFactory((c) => UpdateProfileBloc());
+  container.registerFactory((c) => OrderBloc());
+  container.registerFactory((c) => SettingBloc());
+  container.registerFactory((c) => NotificationBloc());
+  container.registerFactory((c) => WalletBloc());
+  container.registerFactory((c) => ForgetPasswordBloc());
+  container.registerFactory((c) => ResetPasswordBloc());
+}

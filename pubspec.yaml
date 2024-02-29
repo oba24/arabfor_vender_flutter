@@ -1,0 +1,68 @@
+name: saudimerchantsiller
+description: Merchant app
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.10.5"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # General #
+  cupertino_icons: ^1.0.2
+  flutter_screen_scaling: ^3.3.2+3
+  easy_localization: ^3.0.1
+  flutter_svg_provider: ^1.0.3
+  lottie: ^1.2.2
+  flutter_phoenix: ^1.0.0
+  pin_code_fields: ^7.3.0
+  flutter_rating_bar:
+  shared_preferences: ^2.0.13
+  flash: ^2.0.3+2
+  flutter_html: 3.0.0-alpha.3
+  url_launcher: ^6.1.2
+  share_plus: ^4.0.9
+  # repo #
+  dio: ^4.0.6
+  # State mangement #
+  flutter_bloc: ^7.0.0
+  kiwi: ^4.0.2
+  # Pick Image #
+  image_cropper: ^1.5.0
+  image_picker: ^0.8.4+11
+  multi_image_picker2: ^5.0.2
+  # Firebase #
+  firebase_core: ^2.10.0
+  firebase_messaging: ^14.4.1
+  flutter_local_notifications: ^14.0.0
+  # Location #
+  google_maps_flutter: ^2.1.3
+  geocoding: ^2.0.4
+  location: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+  flutter_gen_runner: ^4.1.6
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/loattie/
+    - assets/langs/
+    - assets/langs/en-US.json
+    - assets/langs/ar-SA.json
+
+  fonts:
+    - family: Somar
+      fonts:
+        - asset: assets/fonts/alfont_com_SomarGX.otf

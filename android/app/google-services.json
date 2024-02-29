@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "156861358279",
+    "project_id": "arabfor-1e03a",
+    "storage_bucket": "arabfor-1e03a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156861358279:android:900912de4031d27fc15ee2",
+        "android_client_info": {
+          "package_name": "com.arabfor.arabforClient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156861358279-dkkscqp7rsu7oadevt4jb1118bssb5bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfoN4z6vFmdUfm3ydzKpessHWnIF03Vtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156861358279-dkkscqp7rsu7oadevt4jb1118bssb5bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156861358279:android:1b4cc26f87fa57e3c15ee2",
+        "android_client_info": {
+          "package_name": "com.arabfor.vendor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156861358279-dkkscqp7rsu7oadevt4jb1118bssb5bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfoN4z6vFmdUfm3ydzKpessHWnIF03Vtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156861358279-dkkscqp7rsu7oadevt4jb1118bssb5bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

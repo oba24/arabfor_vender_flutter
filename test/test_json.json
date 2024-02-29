@@ -1,0 +1,36 @@
+[
+    {
+        "data": {
+            "id": 5,
+            "user_type": "provider",
+            "user_name": "lion king",
+            "phone": "966502711332",
+            "email": "siller@demo.com",
+            "image": "https://khlod.aait-d.com/saudi_marsheeh/public/dashboardAssets/images/backgrounds/avatar.jpg",
+            "commercial_register_image": "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/user/commercialRegister/1655732983_AykYKHDMn013.jpg",
+            "logo": "https://khlod.aait-d.com/saudi_marsheeh/public/storage/images/user/logo/1655732983_DlK8YW7DltYw.jpg",
+            "lang": "en",
+            "last_login_at": "2022-06-20 14:09 pm",
+            "city": {
+                "id": 3,
+                "name": "الدمام"
+            },
+            "location_description": "29JW+QC8",
+            "lat": 31.032,
+            "lng": 31.3963,
+            "establishment_activity": null
+        },
+        "status": "success",
+        "message": "تم التعديل بنجاح"
+    },
+    {
+        "fullname": "lion king",
+        "email": "siller@demo.com",
+        "city_id": "3",
+        "lat": "31.032",
+        "lng": "31.3963",
+        "location_description": "29JW+QC8",
+        "establishment_activity": "vvgvggg",
+        "phone": "966502711332"
+    }
+]
